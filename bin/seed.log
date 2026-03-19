@@ -1,6 +1,6 @@
 seed = 484
 棋盘大小 = 5 x 4
-start at: 2026-03-19T10:03:42.451779100
+start at: 2026-03-19T10:30:55.728256100
 根据 seed 生成的怪物属性：
 MonsterA [HP=38, ATK=11, DEF=0]
 MonsterB [HP=35, ATK=13, DEF=2]
@@ -45,6 +45,7 @@ Turn 3
 Monster1的血量：38
 Monster2的血量：35
 Monster3的血量：31
+Use only keywords up,down,left,right.
 Player is moving up
 !!HIT!! Player successfully attacked Monster1
 你造成伤害：15
@@ -78,60 +79,62 @@ Turn 5
 Monster1的血量：23
 Monster2的血量：35
 Monster3的血量：31
-Player is moving left
-!!MISS!! Monster1 successfully defended attack from Player
-Player move: left
-Monster1 is moving down
-Monster2 is moving up
-Monster3 is moving right
-..%.*
-...%.
-%....
+Player is moving up
+You can't go up. You lose a move.
+Player move: up
+Monster1 is moving left
+Monster2 is moving down
+You can't go down. You lose a move.
+Monster3 is moving up
+You can't go up. You lose a move.
+.%%.*
 .....
+.....
+%....
 Turn 6
 你的血量: 100
 Monster1的血量：23
 Monster2的血量：35
 Monster3的血量：31
-Player is moving left
-Player move: left
+Player is moving up
+You can't go up. You lose a move.
+Player move: up
 Monster1 is moving right
 Monster2 is moving right
-Monster3 is moving down
-...*.
-..%.%
-.%...
+Monster3 is moving right
+..%%*
 .....
+.....
+.%...
 Turn 7
 你的血量: 100
 Monster1的血量：23
 Monster2的血量：35
 Monster3的血量：31
-Use only keywords up,down,left,right.
-Player is moving down
-Player move: down
+Player is moving left
+!!MISS!! Monster1 successfully defended attack from Player
+Player move: left
 Monster1 is moving up
+You can't go up. You lose a move.
 Monster2 is moving right
 Monster3 is moving down
-Monster already there so can't move
-....%
-..%*.
+...%*
 ..%..
 .....
+..%..
 Turn 8
 你的血量: 100
 Monster1的血量：23
 Monster2的血量：35
 Monster3的血量：31
 Player is moving left
-!!MISS!! Monster3 successfully defended attack from Player
+!!MISS!! Monster1 successfully defended attack from Player
 Player move: left
 Monster1 is moving left
 Monster2 is moving up
-Monster already there so can't move
 Monster3 is moving left
-...%.
-.%.*.
+..%.*
+.%...
 ..%..
 .....
 Turn 9
@@ -139,3 +142,415 @@ Turn 9
 Monster1的血量：23
 Monster2的血量：35
 Monster3的血量：31
+Use only keywords up,down,left,right.
+Player is moving left
+Player move: left
+Monster1 is moving up
+You can't go up. You lose a move.
+Monster2 is moving left
+Monster3 is moving left
+..%*.
+%....
+.%...
+.....
+Turn 10
+你的血量: 100
+Monster1的血量：23
+Monster2的血量：35
+Monster3的血量：31
+Player is moving left
+!!HIT!! Player successfully attacked Monster1
+你造成伤害：15
+Player move: left
+Monster1 is moving down
+Monster2 is moving up
+Monster3 is moving right
+Monster already there so can't move
+...*.
+%%%..
+.....
+.....
+Turn 11
+你的血量: 100
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving left
+Player move: left
+Monster1 is moving down
+Monster2 is moving left
+Monster already there so can't move
+Monster3 is moving down
+..*..
+.%...
+%.%..
+.....
+Turn 12
+你的血量: 100
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving down
+Player move: down
+Monster1 is moving right
+Monster2 is moving left
+Monster3 is moving down
+.....
+%.*..
+...%.
+%....
+Turn 13
+你的血量: 100
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving down
+Player move: down
+Monster1 is moving left
+!!HIT!! Monster1 successfully attacked Player
+你受到伤害：7
+Monster2 is moving down
+Monster3 is moving left
+You can't go left. You lose a move.
+.....
+.....
+%.*%.
+%....
+Turn 14
+你的血量: 93
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving right
+!!MISS!! Monster1 successfully defended attack from Player
+Player move: right
+Monster1 is moving down
+Monster2 is moving down
+Monster already there so can't move
+Monster3 is moving down
+You can't go down. You lose a move.
+.....
+.....
+%.*..
+%..%.
+Turn 15
+你的血量: 93
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving right
+Player move: right
+Monster1 is moving up
+!!HIT!! Monster1 successfully attacked Player
+你受到伤害：9
+Monster2 is moving down
+Monster already there so can't move
+Monster3 is moving right
+.....
+.....
+%..*.
+.%.%.
+Turn 16
+你的血量: 84
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving down
+!!MISS!! Monster1 successfully defended attack from Player
+Player move: down
+Monster1 is moving up
+!!HIT!! Monster1 successfully attacked Player
+你受到伤害：6
+Monster2 is moving down
+Monster3 is moving left
+Monster already there so can't move
+.....
+.....
+...*.
+%%.%.
+Turn 17
+你的血量: 78
+Monster1的血量：8
+Monster2的血量：35
+Monster3的血量：31
+Player is moving down
+!!HIT!! Player successfully attacked Monster1
+你造成伤害：15
+MonsterA 被击败！
+Player move: down
+Monster2 is moving up
+Monster3 is moving right
+.....
+.....
+%..*.
+..%x.
+Turn 18
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Use only keywords up,down,left,right.
+Player is moving down
+Character already dead.
+Player move: down
+Monster2 is moving left
+You can't go left. You lose a move.
+Monster3 is moving left
+.....
+.....
+%..*.
+.%.x.
+Turn 19
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Player is moving left
+Player move: left
+Monster2 is moving right
+Monster3 is moving left
+.....
+.....
+.%*..
+%..x.
+Turn 20
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Player is moving left
+!!MISS!! Monster2 successfully defended attack from Player
+Player move: left
+Monster2 is moving up
+Monster3 is moving down
+You can't go down. You lose a move.
+.....
+.%...
+..*..
+%..x.
+Turn 21
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Player is moving left
+Player move: left
+Monster2 is moving up
+Monster3 is moving down
+You can't go down. You lose a move.
+.%...
+.....
+.*...
+%..x.
+Turn 22
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Player is moving up
+Player move: up
+Monster2 is moving left
+Monster3 is moving up
+%....
+.*...
+%....
+...x.
+Turn 23
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Player is moving up
+Player move: up
+Monster2 is moving right
+!!MISS!! Player successfully defended attack from Monster2
+Monster3 is moving up
+%*...
+%....
+.....
+...x.
+Turn 24
+你的血量: 78
+Monster2的血量：35
+Monster3的血量：31
+Player is moving left
+!!HIT!! Player successfully attacked Monster2
+你造成伤害：13
+Player move: left
+Monster2 is moving right
+!!MISS!! Player successfully defended attack from Monster2
+Monster3 is moving down
+%*...
+.....
+%....
+...x.
+Turn 25
+你的血量: 78
+Monster2的血量：22
+Monster3的血量：31
+Player is moving left
+!!MISS!! Monster2 successfully defended attack from Player
+Player move: left
+Monster2 is moving left
+You can't go left. You lose a move.
+Monster3 is moving left
+You can't go left. You lose a move.
+%*...
+.....
+%....
+...x.
+Turn 26
+你的血量: 78
+Monster2的血量：22
+Monster3的血量：31
+Player is moving left
+!!HIT!! Player successfully attacked Monster2
+你造成伤害：13
+Player move: left
+Monster2 is moving down
+Monster3 is moving down
+.*...
+%....
+.....
+%..x.
+Turn 27
+你的血量: 78
+Monster2的血量：9
+Monster3的血量：31
+Player is moving left
+Player move: left
+Monster2 is moving right
+Monster3 is moving down
+You can't go down. You lose a move.
+*....
+.%...
+.....
+%..x.
+Turn 28
+你的血量: 78
+Monster2的血量：9
+Monster3的血量：31
+Player is moving down
+Player move: down
+Monster2 is moving down
+Monster3 is moving right
+.....
+*....
+.%...
+.%.x.
+Turn 29
+你的血量: 78
+Monster2的血量：9
+Monster3的血量：31
+Player is moving down
+Player move: down
+Monster2 is moving left
+!!HIT!! Monster2 successfully attacked Player
+你受到伤害：12
+Monster3 is moving left
+.....
+.....
+*%...
+%..x.
+Turn 30
+你的血量: 66
+Monster2的血量：9
+Monster3的血量：31
+Player is moving down
+!!HIT!! Player successfully attacked Monster3
+你造成伤害：13
+Player move: down
+Monster2 is moving up
+Monster3 is moving left
+You can't go left. You lose a move.
+.....
+.%...
+*....
+%..x.
+Turn 31
+你的血量: 66
+Monster2的血量：9
+Monster3的血量：18
+Player is moving down
+!!HIT!! Player successfully attacked Monster3
+你造成伤害：13
+Player move: down
+Monster2 is moving up
+Monster3 is moving left
+You can't go left. You lose a move.
+.%...
+.....
+*....
+%..x.
+Turn 32
+你的血量: 66
+Monster2的血量：9
+Monster3的血量：5
+Player is moving down
+!!HIT!! Player successfully attacked Monster3
+你造成伤害：13
+MonsterC 被击败！
+Player move: down
+Monster2 is moving right
+..%..
+.....
+*....
+x..x.
+Turn 33
+你的血量: 66
+Monster2的血量：9
+Player is moving right
+Player move: right
+Monster2 is moving up
+You can't go up. You lose a move.
+..%..
+.....
+.*...
+x..x.
+Turn 34
+你的血量: 66
+Monster2的血量：9
+Player is moving right
+Player move: right
+Monster2 is moving right
+...%.
+.....
+..*..
+x..x.
+Turn 35
+你的血量: 66
+Monster2的血量：9
+Player is moving up
+Player move: up
+Monster2 is moving down
+.....
+..*%.
+.....
+x..x.
+Turn 36
+你的血量: 66
+Monster2的血量：9
+Player is moving right
+!!MISS!! Monster2 successfully defended attack from Player
+Player move: right
+Monster2 is moving right
+.....
+..*.%
+.....
+x..x.
+Turn 37
+你的血量: 66
+Monster2的血量：9
+Player is moving right
+Player move: right
+Monster2 is moving right
+You can't go right. You lose a move.
+.....
+...*%
+.....
+x..x.
+Turn 38
+你的血量: 66
+Monster2的血量：9
+Player is moving right
+!!HIT!! Player successfully attacked Monster2
+你造成伤害：13
+MonsterB 被击败！
+Player move: right
+YOU HAVE WON!
+Result: YOU HAVE WON!
+end at: 2026-03-19T10:32:03.407560100
