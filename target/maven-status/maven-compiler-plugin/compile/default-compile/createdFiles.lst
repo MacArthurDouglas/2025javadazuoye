@@ -1,0 +1,9 @@
+com\star\constants\Constant.class
+com\star\enums\Direction.class
+com\star\utils\LogUtils.class
+com\star\Monster.class
+com\star\Game.class
+com\star\Player.class
+com\star\BaseRole.class
+com\star\Main.class
+com\star\BaseRole$1.class
